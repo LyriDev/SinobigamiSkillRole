@@ -7,4 +7,4 @@ const formQuery: string = "#root > div > div.MuiDrawer-root > div > div form";
 export const submitFormQuery: string = `${formQuery} button[type='submit']`;
 
 // メッセージ入力フォームのメッセージ欄
-export const messageFormQuery: string = `${formQuery} > div:nth-child(4) textarea`;
+export const messageFormQuery: string = `${formQuery} > div:nth-child(6) textarea`;
